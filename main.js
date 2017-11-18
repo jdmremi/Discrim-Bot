@@ -28,4 +28,7 @@ function changeDiscriminator() {
 bot.once("ready", () => {
   console.log(Date.now(), "Started with " + bot.users.size + " users.");
   changeDiscriminator();
+  if(myDiscriminator.includes(bot.user.discriminator)) {
+      console.log(`I successfully got the discrim ${bot.user.discriminator}!`) 
+      process.exit();
 });
