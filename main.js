@@ -31,4 +31,5 @@ bot.once("ready", () => {
   if(myDiscriminator.includes(bot.user.discriminator)) {
       console.log(`I successfully got the discrim ${bot.user.discriminator}!`) 
       process.exit();
+  }
 });
