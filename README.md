@@ -1,6 +1,8 @@
 # Discrim-Bot
 This bot allows you change your Discord discriminator!
 
+NOTE: I am not responsible if you get banned for running this userbot. Run at your own discretion. 
+
 # How to Install Discrim-Bot
 
 1. Install node.js on your system - https://nodejs.org.
