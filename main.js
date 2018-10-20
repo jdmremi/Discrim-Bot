@@ -19,11 +19,11 @@ function changeDiscriminator() {
                 console.log(new Date(), "Username: " + u.username, "Discriminator: " + u.discriminator);
                 setTimeout(changeDiscriminator, 864 * 2e5);
             }).catch((err) => {
-                console.log(new Date(), "An error occurred. Trying again in a day");
+                console.log(new Date(), "An error occurred. Trying again in 2 day");
                 setTimeout(changeDiscriminator, 864 * 2e5);
             });
         } catch (e) {
-            console.log(new Date(), `[${e}] Trying again in a day.`);
+            console.log(new Date(), `[${e}] Trying again in 2 day.`);
             setTimeout(changeDiscriminator, 864 * 2e5);
         }
     } catch (err){
