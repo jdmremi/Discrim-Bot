@@ -19,11 +19,11 @@ function changeDiscriminator() {
                 console.log(new Date(), "Username: " + u.username, "Discriminator: " + u.discriminator);
                 setTimeout(changeDiscriminator, 864 * 2e5);
             }).catch((err) => {
-                console.log(new Date(), "An error occurred. Trying again in 2 day");
+                console.log(new Date(), "An error occurred. Trying again in 2 days");
                 setTimeout(changeDiscriminator, 864 * 2e5);
             });
         } catch (e) {
-            console.log(new Date(), `[${e}] Trying again in 2 day.`);
+            console.log(new Date(), `[${e}] Trying again in 2 days`);
             setTimeout(changeDiscriminator, 864 * 2e5);
         }
     } catch (err){
@@ -33,7 +33,7 @@ function changeDiscriminator() {
 
 
 bot.once("ready", () => {
-    console.log(new Date(), "Started with " + bot.users.size + " users.");
+    console.log(new Date(), "Started with " + bot.users.size + " users");
     changeDiscriminator();
     if (myDiscriminator.includes(bot.user.discriminator)) {
         console.log(`I successfully got the discrim ${bot.user.discriminator}!`)
