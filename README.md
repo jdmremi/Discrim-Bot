@@ -1,4 +1,7 @@
 # Discrim-Bot
+
+NOTE: As of 1/20/2020, this repository is no longer being maintained due to discontinued support from both Discord and the developers of the API wrapper library, Discord.js. 
+
 This bot allows you change your Discord discriminator!
 
 NOTE: I am not responsible if you get banned for running this userbot. Run at your own discretion. 
